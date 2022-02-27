@@ -1,0 +1,38 @@
+
+
+-----------------------------------------------
+
+react后台？  后台+前台
+
+1.前台+后台 都要 
+2.对开发友好
+3.原理
+
+-----------------------------------------------
+
+react 后端渲染的原理问题：
+1.react-dom有server版
+2.jsx -> webpack + babel -> js
+
+-----------------------------------------------
+
+1.react组件(jsx) -> 编译(webpack/babel) -> js
+2.node里使用ReactDomServer库，完成组件渲染(js) -> string
+
+-----------------------------------------------
+
+服务端渲染(server/)
+    1.依赖 
+    #webpack 
+    webpack webpack-cli 
+    #babel
+    @babel/core @babel/preset-react babel-loader
+    #file-loader
+    file-loader
+    #react
+    react react-dom
+    #koa
+    koa
+
+
+

@@ -1,0 +1,25 @@
+
+安装react
+npm install -g create-react-app
+
+初始化react项目
+create-react-app <项目名>
+
+运行项目
+npm start
+
+
+项目初始化
+npm init -y
+
+安装yarn
+npm install -g yarn
+
+后端依赖
+yarn add webpack webpack-cli
+yarn add @babel/core @babel/preset babel-loader
+yarn add file-loader
+yarn add react react-dom
+yarn add koa
+
+
